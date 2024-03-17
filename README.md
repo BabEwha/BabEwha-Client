@@ -3,7 +3,7 @@
 #### 1️⃣ Client 레포지토리 링크: https://github.com/BabEwha/BabEwha-Client
 #### 2️⃣ Backend 레포지토리 링크: https://github.com/BabEwha/BabEwha-Backend
 
-- 개발 기간: 2023.03.15(금) ~ 2023.03.17(일) <br/>
+- 개발 기간: 2023.03.15(금) 15:00 ~ 2023.03.17(일) 17:20 <br/>
 - 예상 사용자 설문조사: 3.15(금) 21:00 ~ 3.17(일) 14:00<br/>
 - 설문 링크 (현재 폐쇄): https://docs.google.com/forms/d/e/1FAIpQLSfulZbuCy8cGD-FTW601AuBbd7FedH7zUMOYdtjfu-iqWXjSw/viewform?usp=sf_link
 
