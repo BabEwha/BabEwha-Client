@@ -40,16 +40,16 @@ struct SendMenuSheet: View {
             }
             .padding(.bottom, 8)
             
-            VStack(alignment: .leading) {
-                HStack {
-                    BECheckBox(isOn: $isAgree)
+            HStack {
+                BECheckBox(isOn: $isAgree)
+                VStack(alignment: .leading) {
                     Text("이 주문으로 보낼까요?")
                         .pretendard(size: .s,
                                     weight: .regular)
+                    Text("보낸 후에는 취소하거나 수정할 수 없어요")
+                        .pretendard(size: .s,
+                                    weight: .regular)
                 }
-                Text("보낸 후에는 취소하거나 수정할 수 없어요")
-                    .pretendard(size: .s,
-                                weight: .regular)
             }
             .padding(.bottom, 16)
             .onTapGesture {
