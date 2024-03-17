@@ -1,6 +1,6 @@
 # 🍚 밥이화(BabEwha) 🍚
 ### OCR 기반 배달 어플리케이션 **🍚** **밥이화(BabEwha) 🍚** Client 레포지토리입니다.
-#### 1️⃣ Client 레포지토리 링크: https://github.com/BabEwha/BabEwha-Client
+#### 1️⃣ Backend 레포지토리 링크: https://github.com/BabEwha/BabEwha-Backend
 #### 2️⃣ AI 레포지토리 링크: https://github.com/BabEwha/BabEwha-AI
 
 <br/>
@@ -25,7 +25,7 @@
 
 ## 🍙 팀원 소개
 
-| <img width="200" src=""/> | <img width="200" src=""/> | <img width="200" src=""/> | <img width="200" src=""/> | <img width="200" src=""/> |
+| <img width="200" src="https://github.com/BabEwha/BabEwha-ai-private/assets/91009436/1a77ca56-1b72-48cc-81e1-09d2d2ee1688"/> | <img width="200" src="https://github.com/BabEwha/BabEwha-ai-private/assets/91009436/0c997a4a-b942-457a-8c20-fb8bdd0a7277"/> | <img width="200" src="https://github.com/BabEwha/BabEwha-ai-private/assets/91009436/f1414b85-9269-4aae-a121-af8e01090579"/> | <img width="200" src="https://github.com/BabEwha/BabEwha-ai-private/assets/91009436/6b676f0c-d5e1-44e9-ab1d-1d00d7c48046"/> | <img width="200" src="https://github.com/BabEwha/BabEwha-ai-private/assets/91009436/4be5a2b8-fd32-4ccc-b89c-00d4269c77ce"/> |
 | --- | --- | --- | --- | --- |
 | **엄채은** | **양연우** | **허혜민** | **김원정** | **이남영** |
 | 기획 | 디자이너 | 프론트엔드 | 백엔드 | IT기술(AI) |
