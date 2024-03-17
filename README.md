@@ -33,16 +33,16 @@
 
 ## 🍙 Client 정보
 
-1️⃣ 버전
+### 1️⃣ 버전
 - iOS 17.0 +
 - 다크 모드, 세로모드 미지원 
 - iPhone 15 Pro에서 최적화되어 있습니다. 
 
-2️⃣ 프레임워크
+### 2️⃣ 프레임워크
 - View 
     - SwiftUI
 
-3️⃣ 아키텍쳐
+### 3️⃣ 아키텍쳐
 - MVVM 패턴 (Model - View - ViewModel)
 
 <br/>
