@@ -8,7 +8,7 @@
 ## 🍙 프로젝트 소개
 
 개발 기간: 2023.03.15(금) ~ 2023.03.17(일) <br/>
-예상 사용자 설문조사: (3.15(금) 21:00 ~ 3.17(일) 14:00)<br/>
+예상 사용자 설문조사: 3.15(금) 21:00 ~ 3.17(일) 14:00<br/>
 설문 링크 (현재 폐쇄): https://docs.google.com/forms/d/e/1FAIpQLSfulZbuCy8cGD-FTW601AuBbd7FedH7zUMOYdtjfu-iqWXjSw/viewform?usp=sf_link
 
 <br/><br/>
