@@ -68,11 +68,11 @@
 
 
 ### 1️⃣ 리더벗(방장)
-| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> 
+| <img height = "400" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> 
 | :---: |
 | **주문과정** |  
 ### 2️⃣ 참여벗(참여자)
-| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/8183baf3-8b0d-4cf2-8732-bf3ce3f9ea8d"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/22d0186c-ab09-4b5e-902c-92aac4beeaef"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> |
+| <img height = "400" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/8183baf3-8b0d-4cf2-8732-bf3ce3f9ea8d"/> | <img height = "400" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/22d0186c-ab09-4b5e-902c-92aac4beeaef"/> | <img height = "400" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> |
 | :---: | :---: | :---: |
 | **앱에서 메뉴보기** | **주문 보내기** | **주문과정** | 
 
