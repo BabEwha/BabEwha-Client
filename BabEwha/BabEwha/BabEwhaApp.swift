@@ -12,7 +12,7 @@ struct BabEwhaApp: App {
    
     var body: some Scene {
         WindowGroup {
-            TabBarRouteView()
+            ReLoginRouteView()
         }
     }
 }

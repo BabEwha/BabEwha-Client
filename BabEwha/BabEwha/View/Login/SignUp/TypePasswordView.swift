@@ -10,7 +10,8 @@ import SwiftUI
 struct TypePasswordView: View {
     @State var password: String = ""
     @State var comfirmPassword: String = ""
-    
+    @State var isPresentedAuthorityView: Bool = false
+    @Binding var isSignUp: Bool
     var body: some View {
         VStack(alignment: .leading) {
             BENavigationBar(backButton: true,
@@ -37,6 +38,7 @@ struct TypePasswordView: View {
             
             BEButton(style: .plain) {
                 // go to next page
+                isPresentedAuthorityView = true
             } label: {
                 Text("다음")
                     .frame(maxWidth: .infinity)
@@ -44,9 +46,13 @@ struct TypePasswordView: View {
 
         }
         .padding(.horizontal, 24)
+        .navigationDestination(isPresented: $isPresentedAuthorityView) {
+            AuthorityView(isSignUp: $isSignUp)
+        }
+        .navigationBarBackButtonHidden()
     }
 }
 
 #Preview {
-    TypePasswordView()
+    TypePasswordView(isSignUp: .constant(true))
 }

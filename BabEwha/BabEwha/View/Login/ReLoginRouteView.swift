@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ReLoginRouteView: View {
-    
+    @State var isLogin: Bool = false
     var body: some View {
-        NavigationStack {
-            LogoView()
-            .navigationBarBackButtonHidden()
+        if isLogin {
+            TabBarRouteView()
+        } else {
+            NavigationStack {
+                LogoView(isLogin: $isLogin)
+            }
         }
     }
 }

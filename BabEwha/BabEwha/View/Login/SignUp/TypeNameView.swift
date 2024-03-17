@@ -9,7 +9,8 @@ import SwiftUI
 
 struct TypeNameView: View {
     @State var name: String = ""
-    
+    @State var isPresentedPasswordView: Bool = false
+    @Binding var isSignUp: Bool
     var body: some View {
         VStack(alignment: .leading) {
             BENavigationBar(backButton: true,
@@ -29,16 +30,21 @@ struct TypeNameView: View {
             
             BEButton(style: .plain) {
                 // go to next page
+                isPresentedPasswordView = true
             } label: {
                 Text("다음")
                     .frame(maxWidth: .infinity)
             }
 
         }
+        .navigationBarBackButtonHidden()
         .padding(.horizontal, 24)
+        .navigationDestination(isPresented: $isPresentedPasswordView) {
+            TypePasswordView(isSignUp: $isSignUp)
+        }
     }
 }
 
 #Preview {
-    TypeNameView()
+    TypeNameView(isSignUp: .constant(true))
 }

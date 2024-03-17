@@ -9,7 +9,9 @@ import SwiftUI
 
 struct TypeEmailView: View {
     @State var email: String = ""
+    @State var isPresentedNameView: Bool = false
     
+    @Binding var isSignUp: Bool
     var body: some View {
         VStack(alignment: .leading) {
             BENavigationBar(backButton: true,
@@ -29,6 +31,7 @@ struct TypeEmailView: View {
             
             BEButton(style: .plain) {
                 // go to next page
+                isPresentedNameView = true
             } label: {
                 Text("다음")
                     .frame(maxWidth: .infinity)
@@ -36,9 +39,13 @@ struct TypeEmailView: View {
 
         }
         .padding(.horizontal, 24)
+        .navigationDestination(isPresented: $isPresentedNameView) {
+            TypeNameView(isSignUp: $isSignUp)
+        }
+        .navigationBarBackButtonHidden()
     }
 }
 
 #Preview {
-    TypeEmailView()
+    TypeEmailView(isSignUp: .constant(true))
 }

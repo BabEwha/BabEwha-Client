@@ -10,7 +10,9 @@ import SwiftUI
 struct SignInView: View {
     @State var email: String = ""
     @State var password: String = ""
+    @State var isPresentedFindPW: Bool = false
     
+    @Binding var isLogin: Bool
     var body: some View {
         VStack {
             BENavigationBar(backButton: true,
@@ -34,6 +36,7 @@ struct SignInView: View {
                 Spacer()
                 Button {
                     // navigate to fine pw
+                    isPresentedFindPW = true
                     
                 } label: {
                     Text("비밀번호를 잊으셨나요?")
@@ -47,12 +50,14 @@ struct SignInView: View {
             
             BEButton(style: .plain) {
                 // go to next page
+                isLogin = true
             } label: {
                 Text("다음")
                     .frame(maxWidth: .infinity)
             }
 
         }
+        .navigationBarBackButtonHidden()
         .padding(.horizontal, 24)
         .onTapGesture {
             hideKeyboard()
@@ -61,5 +66,5 @@ struct SignInView: View {
 }
 
 #Preview {
-    SignInView()
+    SignInView(isLogin: .constant(true))
 }
