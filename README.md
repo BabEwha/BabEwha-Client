@@ -30,7 +30,7 @@
 | **엄채은** | **양연우** | **허혜민** | **김원정** | **이남영** |
 | 기획 | 디자이너 | 프론트엔드 | 백엔드 | IT기술(AI) |
 
-<br/>
+<br/><br/>
 
 ## 🍙 Client 정보
 
@@ -48,7 +48,8 @@
 ![image](https://github.com/team-rocketdan/MAKS-iOS/assets/97100404/7ea2be2c-f69a-490f-919a-2714a0566fb1)
 
 (출처: https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EB%B7%B0%EB%AA%A8%EB%8D%B8)
-<br/>
+
+<br/><br/>
 
 ## 🍙 실행 화면
 | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/89905ce9-09b6-4638-b4af-a0f4e118b0ba"/> |
@@ -66,16 +67,16 @@
 | **이메일** | **이름** | **비밀번호** | **권한** | 
 
 
-### 방장
-| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/ca5f19f4-19e7-46e4-9935-5e7750a09a49"/> 
+### 1️⃣ 리더벗(방장)
+| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> 
 | :---: |
 | **주문과정** |  
-### 참여자
+### 2️⃣ 참여벗(참여자)
 | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/8183baf3-8b0d-4cf2-8732-bf3ce3f9ea8d"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/22d0186c-ab09-4b5e-902c-92aac4beeaef"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> |
 | :---: | :---: | :---: |
 | **앱에서 메뉴보기** | **주문 보내기** | **주문과정** | 
 
-<br/>
+<br/><br/>
 
 ## 🍙 폴더 구조 
 ```sh
