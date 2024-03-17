@@ -9,11 +9,19 @@ import SwiftUI
 
 // 회원가입 
 struct SignUpView: View {
+    @State var isSignUp: Bool = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if isSignUp {
+          TypeEmailView(isSignUp: $isSignUp)
+        } else {
+            ReLoginRouteView()
+        }
     }
 }
 
 #Preview {
-    SignUpView()
+    NavigationStack {
+        SignUpView()
+    }
 }

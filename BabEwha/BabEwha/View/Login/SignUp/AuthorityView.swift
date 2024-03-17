@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AuthorityView: View {
-    
+    @Binding var isSignUp: Bool
     var body: some View {
         VStack(alignment: .leading) {
             BENavigationBar(backButton: true,
@@ -68,6 +68,7 @@ struct AuthorityView: View {
             
             BEButton(style: .plain) {
                 // go to home page
+                isSignUp = false
             } label: {
                 Text("확인")
                     .frame(maxWidth: .infinity)
@@ -76,9 +77,10 @@ struct AuthorityView: View {
             
         }
         .padding(.horizontal, 24)
+        .navigationBarBackButtonHidden()
     }
 }
 
 #Preview {
-    AuthorityView()
+    AuthorityView(isSignUp: .constant(true))
 }
