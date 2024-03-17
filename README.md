@@ -51,14 +51,28 @@
 <br/>
 
 ## 🍙 실행 화면
+| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/89905ce9-09b6-4638-b4af-a0f4e118b0ba"/> |
+| :---: |
+| **진입** |  
+
+### 로그인
+| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/9e55b9a4-3b57-4738-a9a6-b3ba57339c69"/>  |
+| :---: |
+| **로그인** |  
+
+### 회원가입
+ | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/1172027f-4921-4369-aa12-aa811259b77c"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/62ba7fa6-4577-4c05-8a05-2791644149b2"/> |<img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/b9df24f5-29f3-4675-adb0-ada10a03310a"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/945f69b2-27d2-4ac9-b2e5-8dadd0b7e52f"/> |
+| :---: | :---: | :---: | :---: |
+| **이메일** | **이름** | **비밀번호** | **권한** | 
+
 
 ### 방장
-| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> 
-| --- |
+| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/ca5f19f4-19e7-46e4-9935-5e7750a09a49"/> 
+| :---: |
 | **주문과정** |  
 ### 참여자
 | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/8183baf3-8b0d-4cf2-8732-bf3ce3f9ea8d"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/22d0186c-ab09-4b5e-902c-92aac4beeaef"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | **앱에서 메뉴보기** | **주문 보내기** | **주문과정** | 
 
 <br/>
