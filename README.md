@@ -51,7 +51,7 @@
 
 <br/><br/>
 
-## 🍙 실행 화면
+## 🍙 실행 화면 (실제 어플리케이션과 동일)
 
 ### 1️⃣ 진입
 | <img height = "400" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/89905ce9-09b6-4638-b4af-a0f4e118b0ba"/> |
