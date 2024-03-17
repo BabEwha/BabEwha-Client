@@ -7,9 +7,11 @@
 
 ## 🍙 프로젝트 소개
 
-개발 기간: 2023.03.15(금) ~ 2023.03.17(일) <br/>
-예상 사용자 설문조사: 3.15(금) 21:00 ~ 3.17(일) 14:00<br/>
-설문 링크 (현재 폐쇄): https://docs.google.com/forms/d/e/1FAIpQLSfulZbuCy8cGD-FTW601AuBbd7FedH7zUMOYdtjfu-iqWXjSw/viewform?usp=sf_link
+🍘 기존에 이화인끼리 진행하던 ‘배달톡방’을 어플화하여 직관적이고 신속한 배달을 가능하게 하는 ‘배달 공구 서비스’
+
+- 개발 기간: 2023.03.15(금) ~ 2023.03.17(일) <br/>
+- 예상 사용자 설문조사: 3.15(금) 21:00 ~ 3.17(일) 14:00<br/>
+- 설문 링크 (현재 폐쇄): https://docs.google.com/forms/d/e/1FAIpQLSfulZbuCy8cGD-FTW601AuBbd7FedH7zUMOYdtjfu-iqWXjSw/viewform?usp=sf_link
 
 <br/><br/>
 
