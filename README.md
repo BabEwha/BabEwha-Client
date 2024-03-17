@@ -44,13 +44,93 @@
     - SwiftUI
 
 ### 3️⃣ 아키텍쳐
-- MVVM 패턴 (Model - View - ViewModel)
+- MVVM 패턴 (Model - View - ViewModel) 
+![image](https://github.com/team-rocketdan/MAKS-iOS/assets/97100404/7ea2be2c-f69a-490f-919a-2714a0566fb1)
+
+(출처: https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EB%B7%B0%EB%AA%A8%EB%8D%B8)
+<br/>
+
+## 🍙 실행 화면
+
+### 방장
+| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> 
+| --- |
+| **주문과정** |  
+### 참여자
+| <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/8183baf3-8b0d-4cf2-8732-bf3ce3f9ea8d"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/22d0186c-ab09-4b5e-902c-92aac4beeaef"/> | <img height = "300" width="200" src="https://github.com/BabEwha/BabEwha-Client/assets/97100404/abd3e428-4a3e-4fcd-b091-11ac8d69c4c9"/> |
+| --- | --- | --- |
+| **앱에서 메뉴보기** | **주문 보내기** | **주문과정** | 
 
 <br/>
 
-## 🍙 어쩌구
+## 🍙 폴더 구조 
+```sh
+BabEwha
+├── Assets.xcassets
+├── BabEwhaApp.swift
+├── Extension
+│   ├── Color+.swift
+│   ├── Date+.swift
+│   ├── Font+.swift
+│   ├── Image+.swift
+│   └── View+.swift
+├── Info.plist
+├── Model
+│   ├── Party.swift
+│   └── User.swift
+├── Preview Content
+│   └── Preview Assets.xcassets
+│       └── Contents.json
+├── View
+│   ├── Add
+│   ├── Archive
+│   │   └── ArchiveView.swift
+│   ├── Component
+│   │   ├── BEButton.swift
+│   │   ├── BECheckBox.swift
+│   │   ├── BENavigationBar.swift
+│   │   ├── BEProcessView.swift
+│   │   ├── BEProgressView.swift
+│   │   ├── BETextField.swift
+│   │   ├── HandoutPlace.swift
+│   │   ├── ImageBanner.swift
+│   │   ├── Information.swift
+│   │   ├── LargeDivider.swift
+│   │   ├── RestPeopleChip.swift
+│   │   ├── SelectPlace.swift
+│   │   └── TimeChip.swift
+│   ├── Font
+│   │   └── PretendardVariable.ttf
+│   ├── History
+│   │   ├── DepositView.swift
+│   │   ├── HistoryView.swift
+│   │   └── Leader
+│   │       ├── ETASheet.swift
+│   │       └── LeaderHistoryView.swift
+│   ├── Home
+│   │   ├── HomeView.swift
+│   │   ├── PartyDetailView.swift
+│   │   ├── PhotoPickerView.swift
+│   │   ├── SelectImageSheet.swift
+│   │   └── SendMenuSheet.swift
+│   ├── Login
+│   │   ├── LogoView.swift
+│   │   ├── ReLoginRouteView.swift
+│   │   ├── SignInView.swift
+│   │   └── SignUp
+│   │       ├── AuthorityView.swift
+│   │       ├── SignUpView.swift
+│   │       ├── TypeEmailView.swift
+│   │       ├── TypeNameView.swift
+│   │       └── TypePasswordView.swift
+│   ├── Profile
+│   │   └── ProfileView.swift
+│   └── TabBarRouteView.swift
+└── ViewModel
+    ├── ToastViewModel.swift
+    └── UserViewModel.swift
 
-
+```
 
 
 
